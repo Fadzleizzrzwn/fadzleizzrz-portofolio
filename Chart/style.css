@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: table;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background: gray;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+header {
+     padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  }
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #2d624d; 
+    font-family: Arial, sans-serif;
+  }
